@@ -12,6 +12,11 @@
     top: 25%;
     margin: 0px 120px;
 }
+@media screen and (max-width: 800px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
 .wrap{
     background-color: hsl(31, 77%, 52%);
 }
